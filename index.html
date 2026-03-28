@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen en Pantalla Completa</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black; /* Fondo negro para mejor visualización si la imagen no cubre todo */
+        }
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover; /* Ajusta la imagen para cubrir toda la pantalla sin distorsionar */
+        }
+    </style>
+</head>
+<body>
+    <img src="red.png" alt="Imagen roja en pantalla completa">
+</body>
+</html>
